@@ -1,0 +1,61 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+
+}
+
+.menu {
+    
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    cursor: pointer;
+    
+}
+#imagemprincs{
+    width: auto;
+    height: auto;
+    
+
+}
+.logo-2{
+    height: 170px;
+    alt: 210px;
+    width: 400px;
+    float: right;
+    margin: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#introducao{
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.imagemindex{
+    width: 1500px;
+    height: 350px;
+    alt: 150px;
+}
+.logo-1{
+    width: 260px;
+    height: 300px;
+    alt: 150px;
+    float: right;
+}
+#imagemquadratica{
+    width: 350px;
+    height: 250px;
+    alt: 300px;
+}
+.afastaesq{
+    margin-left: 30px;
+}

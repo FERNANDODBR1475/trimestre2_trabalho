@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="utf-8">
+    <title> Portfólio </title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+
+    <h1 class="center">
+         CONVERSÕES 
+    </h1>
+
+    <hr>
+
+    <h2 class="center">
+         Conversão de Decimal para Octal
+    </h2>
+
+    <h3>
+        <ol>
+            <b>
+                <li> Divida o número decimal por 8. </li>
+                <li> Anote o resto da divisão como o último dígito do número octal. </li>
+                <li> Divida o quociente da divisão anterior por 8 novamente. </li>
+                <li> Anote o resto da divisão como o próximo dígito do número octal, à esquerda do dígito que acabou de
+                    escrever. </li>
+                <li> Repita o processo até que o quociente da divisão se torne zero.</li>
+            </b>
+        </ol>
+    </h3>
+
+    <h2> Exemplo </h2>
+
+    <h3> 187 / 8 = 23, resto 3 </h3>
+    <h3> 23 / 8 = 2, resto 7 </h3>
+    <h3> 2 / 8 = 0, resto 2</h3>
+    <h3> Portanto, o número decimal 187 é igual a 273 em octal. </h3>
+
+    <hr>
+
+    <h2 class="center">
+         Conversão de Octal para Decimal
+    </h2>
+
+    <h3>
+        <p> Para converter um número octal em decimal, você pode usar o método de multiplicação sucessiva,</p>
+        <p> onde cada dígito do número octal é multiplicado pelo valor de 8 elevado à potência correspondente ao seu
+            local de valor.</p>
+    </h3>
+
+    <h2> Exemplo </h2>
+
+    <h3> Vamos converter o número octal 345 em decimal: </h3>
+    <h3> 3 x 8² + 4 x 8¹ + 5 x 8⁰ = 3 x 64 + 4 x 8 + 5 x 1 = 192 + 32 + 5 = 229 </h3>
+    <h3> Portanto, o número octal 345 é igual a 229 em decimal. </h3>
+
+    <hr>
+
+    <h2 class="center">
+         Binário para Octal 
+    </h2>
+
+    <h3>
+        <p>Para converter um número binário em octal, é necessário dividi-lo em grupos de três dígitos da direita para a
+            esquerda,</p>
+        <p>preenchendo com zeros à esquerda se necessário para completar o último grupo de três dígitos.</p>
+    </h3>
+
+    <h2> Exemplo </h2>
+
+    <h3>
+        <p> O número binário 10111010, depois de dividilos em grupos de três ele ficará assim 10 111 010,</p>
+        <p> e dps de convertidos na tabela você vera que o número octal é 272.</p>
+    </h3>
+
+    <h3>OBS:A tabela ta no final da pagina.</h3>
+
+    <h2>
+        <center> Octal para Binário </center>
+    </h2>
+
+    <h3>Pra tranformar o octal em binário é basicamnete a mesma coisa que a conversão do binário para o octal é so você
+        inverter.
+    </h3>
+
+    <h2> Exemplo </h2>
+
+    <h3> Imagine o número 657 conforme a tabela 6=110 5=101 7=111, ou seja o numero 657 em binários é 110101111.</h3>
+
+    <hr>
+
+    <h2>
+        <center> Hexadecimal para Decimal </center>
+    </h2>
+
+    <h3>
+        É a mesma coisa que na conversão octal para decimal a ÚNICA coisa que muda é que em vez de fazer por x8 se faz
+        x16.
+    </h3>
+    <h2> Exemplo </h2>
+
+    <h3>
+        <p>Vamos converter o número Hexadecimal 3F2.</p>
+        <p>(3 x 16^2) + (F x 16^1) + (2 x 16^0)</p>
+        <p>(3 x 256) + (15 x 16) + (2 x 1)</p>
+        <p>768 + 240 + 2 </p>
+        <p>1010</p>
+    </h3>
+
+    <hr>
+
+    <h2>
+        <center> Hexadecimal para Binário </center>
+    </h2>
+
+    <h3>
+        Para cada digito hexadecimal são necessarios 4 digitos para representa-lo em binário, para converter é so usar
+        a tabela.
+    </h3>
+
+    <h2>
+        <center> Exemplo </center>
+    </h2>
+
+    <h3>
+        <p>Vamos converter o número hexadecimal "AB" para binário;</p>
+        <p>A=1010 e B=1011;</p>
+        <p>10101011</p>
+    </h3>
+
+    <hr>
+
+    <h2>
+        <center> TABELA </center>
+    </h2>
+
+    <center><img src="../imagens/tabelaconver.jpg" height="300" width="300"> </center>
+
+    <br>
+
+    <a href="index1.html"> VOLTAR </a>
+
+</body>
+
+</html>
